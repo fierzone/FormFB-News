@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .logo, .banner {
+            height: 100px;
+            background-color: #ccc;
+            border: 1px solid #000;
+        }
+        .logo {
+            width: 20%;
+        }
+        .banner {
+            width: 75%;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            margin-bottom: 10px;
+            border: 1px solid #000;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+        }
+        .main-content {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            padding: 10px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin: 10px 0;
+        }
+        .content {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .hot-news, .photo-slide {
+            width: 48%;
+            height: 200px;
+            background-color: #ccc;
+            border: 1px solid #000;
+        }
+        .photo-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .news-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .news {
+            width: 32%;
+            height: 100px;
+            background-color: #ddd;
+            border: 1px solid #000;
+        }
+        .widgets {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .calendar, .graph, .map {
+            width: 30%;
+            height: 200px;
+            background-color: #eee;
+            border: 1px solid #000;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            margin-top: 10px;
+            border-top: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">Logo</div>
+    <div class="banner">Banner</div>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Students</a>
+    <a href="#">Courses</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+</nav>
+<div class="container">
+    <div class="main-content">
+        <div class="sidebar">
+            <ul>
+                <li>Introduction</li>
+                <li>News</li>
+                <li>Education</li>
+                <li>Register</li>
+                <li>Courses</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="top-section">
+                <div class="hot-news">Hot news</div>
+                <div class="photo-slide">Photo Slide</div>
+            </div>
+            <div class="news-section">
+                <div class="news">News 1</div>
+                <div class="news">News 2</div>
+                <div class="news">News 3</div>
+                <div class="news">News 4</div>
+                <div class="news">News 5</div>
+                <div class="news">News 6</div>
+            </div>
+        </div>
+    </div>
+    <div class="widgets">
+        <div class="calendar">Calendar</div>
+        <div class="graph">Graph</div>
+        <div class="map">Map</div>
+    </div>
+</div>
+<footer>
+    @2012 - TapChiLapTrinh
+</footer>
+</body>
+</html>

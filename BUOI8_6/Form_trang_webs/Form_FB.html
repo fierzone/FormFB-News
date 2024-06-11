@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box; /* Đảm bảo tất cả các phần tử đều có padding và border nằm trong kích thước của nó */
+    }
+    .menu {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75); /* Đổ bóng cho menu */
+      padding: 0 10px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      width: 40px;
+      height: 40px; /* Kích thước logo */
+    }
+    .search-bar {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      padding: 0 10px;
+    }
+    .search-bar input {
+      width: 80%;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 20px; /* Bo tròn góc cho ô tìm kiếm */
+      background: #f0f2f5; /* Màu nền ô tìm kiếm */
+    }
+    .nav {
+      display: flex;
+      gap: 15px; /* Khoảng cách giữa các mục nav */
+    }
+    .nav .nav-item {
+      padding: 12px;
+      cursor: pointer;
+    }
+    .nav .nav-item:hover {
+      background: rgba(206, 187, 187, 0.38); /* Màu nền khi di chuột vào mục nav */
+      border-radius: 5px; /* Bo tròn góc khi di chuột vào */
+    }
+    .avatar {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+    }
+  </style>
+</head>
+<body>
+<div class="menu">
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Tìm kiếm trên Facebook"> <!-- Ô tìm kiếm -->
+  </div>
+  <div class="nav">
+    <!-- Các mục nav với biểu tượng tương ứng -->
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/home.png" alt="Home"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/tv.png" alt="Watch"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/shop.png" alt="Marketplace"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/groups.png" alt="Groups"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/controller.png" alt="Gaming"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/menu.png" alt="Menu"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/facebook-messenger.png" alt="Messenger"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/appointment-reminders.png" alt="Notifications"></div>
+    <div class="nav-item"><img src="https://img.icons8.com/material-rounded/24/000000/user.png" alt="Account"></div>
+  </div>
+  <div class="avatar">
+    <img src="https://img.icons8.com/material-rounded/24/000000/user.png" alt="Avatar">
+  </div>
+</div>
+</body>
+</html>
