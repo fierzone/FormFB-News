@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .stories {
+        display: flex;
+        gap: 5px;
+    }
+    .item{
+        width: 100px;
+        height: 120px;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;   /*lop cha*/
+    }
+    .back{
+        width: 100px;
+        height: 120px;
+    }
+    .back img{
+        width: 100%;
+    }
+    .avt{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 3px solid blue;
+    }
+    .avt img {
+        width: 100%;
+    }
+</style>
+<body>
+<div class="stories">
+    <div class="item">
+        <div class="back">
+            <img src="https://pbs.twimg.com/media/GO6PVpuXsAAzvsF.jpg:large" alt="">
+        </div>
+        <div class="avt">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5K8ZocvyLoh5sW4uVoHS-U2yWFcQL9BfO6A&s" alt="">
+        </div>
+    </div>
+    <div class="item">
+        <div class="back">
+            <img src="https://pbs.twimg.com/media/GO6PVpuXsAAzvsF.jpg:large" alt="">
+        </div>
+        <div class="avt">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5K8ZocvyLoh5sW4uVoHS-U2yWFcQL9BfO6A&s" alt="">
+        </div>
+    </div>
+</div>
+</body>
+</html>
